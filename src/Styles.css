@@ -1,0 +1,30 @@
+.buttons{
+    -fx-background-color:  #1d383c;
+    -fx-text-fill:white;
+}
+.buttons:hover{
+    -fx-background-color: #31666e;
+}
+.buttons:pressed{
+    -fx-text-fill: #ee6611;
+    -fx-background-color: #2f6e67;
+}
+.sidenavbuttons{
+    -fx-background-color: #450cd5;
+    -fx-text-fill:white;
+}
+
+.sidenavbuttons:hover{
+    -fx-background-color: #8629d5;
+}
+
+.sidenavbuttons:pressed{
+    -fx-text-fill: #eee523;
+    -fx-background-color: #ba1bd5;
+}
+
+.list-cell
+{
+    -fx-font: 11pt "Arial";
+    -fx-font-weight: 600;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="530.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ui.controller.SubmitedAssignmentController">
+    <children>
+        <Label layoutX="226.0" layoutY="21.0" text="Submited Assignments" textFill="#155572">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Button layoutX="284.0" layoutY="489.0" mnemonicParsing="false" onAction="#viewSelectedAssignmentAction" prefHeight="24.0" prefWidth="135.0" styleClass="buttons" stylesheets="@../../Styles.css" text="View">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Button>
+      <TableView fx:id="submitedAssignmentListTableView" layoutX="14.0" layoutY="90.0" onMouseClicked="#selectAssignmentRowAction" prefHeight="351.0" prefWidth="691.0">
+        <columns>
+          <TableColumn fx:id="studentNameTabCol" prefWidth="158.0" text="Student" />
+          <TableColumn fx:id="studentIDTabCol" minWidth="0.0" prefWidth="35.0" text="S ID" />
+            <TableColumn fx:id="assignmentNoTabCol" prefWidth="120.0" text="Assignment No" />
+            <TableColumn fx:id="assignmentNameTabCol" prefWidth="221.0" text="Assignment Name" />
+            <TableColumn fx:id="publishDateTabCol" minWidth="0.0" prefWidth="74.0" text="Pub. Date" />
+            <TableColumn fx:id="submitDateTabCol" text="Sub. Date" />
+        </columns>
+      </TableView>
+      <Line endX="594.5" endY="-7.0" layoutX="118.0" layoutY="79.0" startX="-118.0" startY="-7.0" />
+      <Label fx:id="messageLabel" alignment="CENTER" layoutX="3.0" layoutY="453.0" prefHeight="17.0" prefWidth="697.0" text="Select Assignment" textFill="#751371">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ui.controller.StudentResultController">
+   <children>
+      <Label layoutX="247.0" layoutY="26.0" text="Marks &amp; Performance" textFill="#126be0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="1.0" layoutY="65.0" prefHeight="2.0" prefWidth="700.0" style="-fx-background-color: #ff342e;" />
+      <TableView fx:id="tabViewMarks" accessibleRole="IMAGE_VIEW" layoutX="22.0" layoutY="96.0" prefHeight="243.0" prefWidth="650.0">
+        <columns>
+          <TableColumn fx:id="tabColAssignmentName" prefWidth="203.0" text="               Assignment Name" />
+          <TableColumn fx:id="tabColAssignmentNo" prefWidth="217.0" text="                     Assignment No" />
+            <TableColumn fx:id="tabColMarks" editable="false" prefWidth="229.0" text="                              Marks" />
+        </columns>
+      </TableView>
+      <Label fx:id="messageLabel" alignment="CENTER" layoutX="9.0" layoutY="480.0" prefHeight="25.0" prefWidth="684.0" textFill="#30668c">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

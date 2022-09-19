@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="530.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ui.controller.AssignmentController">
+   <children>
+      <Label layoutX="284.0" layoutY="19.0" text="Assignment" textFill="#4232bc">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Line endX="594.5" endY="-7.0" layoutX="108.0" layoutY="69.0" startX="-108.0" startY="-7.0" />
+      <Label layoutX="31.0" layoutY="83.0" text="Assignment No: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="assignmentNoLabel" layoutX="181.0" layoutY="83.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="32.0" layoutY="130.0" text="Assignment Title: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="assignmentTitleLabel" layoutX="182.0" layoutY="130.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="31.0" layoutY="174.0" text="Published Date:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="publishedDateLabel" layoutX="181.0" layoutY="174.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="31.0" layoutY="219.0" text="Submit Date">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="submitDateLabel" layoutX="181.0" layoutY="219.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Button layoutX="259.0" layoutY="418.0" mnemonicParsing="false" onAction="#downloadAssignment" prefHeight="35.0" prefWidth="185.0" styleClass="buttons" stylesheets="@../../Styles.css" text="Download Assignment">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

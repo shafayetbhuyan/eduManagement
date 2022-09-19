@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="bodyPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ui.controller.TeacherController">
+   <left>
+      <VBox prefHeight="530.0" prefWidth="300.0" style="-fx-background-color: #3c0b7a;;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="69.0" prefWidth="300.0" text="Teacher Portal" textFill="WHITE">
+               <font>
+                  <Font name="Harlow Solid Italic" size="36.0" />
+               </font>
+            </Label>
+            <Line endX="198.58578491210938" endY="-0.863957405090332" startX="-100.0" stroke="#d0c1c1" strokeWidth="2.0" />
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="300.0" styleClass="sidenavbuttons" stylesheets="@../../Styles.css" text="Home">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="300.0" styleClass="sidenavbuttons" stylesheets="@../../Styles.css" text="Profile">
+               <VBox.margin>
+                  <Insets top="2.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#viewStudentAction" prefHeight="40.0" prefWidth="300.0" styleClass="sidenavbuttons" stylesheets="@../../Styles.css" text="Students">
+               <VBox.margin>
+                  <Insets top="2.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#createAssignmentAction" prefHeight="40.0" prefWidth="300.0" styleClass="sidenavbuttons" stylesheets="@../../Styles.css" text="Create Assignment">
+               <VBox.margin>
+                  <Insets top="2.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#AssignmentListAction" prefHeight="40.0" prefWidth="300.0" styleClass="sidenavbuttons" stylesheets="@../../Styles.css" text="Assignments">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="2.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#submitedAssignmentAction" prefHeight="40.0" prefWidth="300.0" styleClass="sidenavbuttons" stylesheets="@../../Styles.css" text="Submited Assignment">
+               <VBox.margin>
+                  <Insets top="2.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#studentMarksAction" prefHeight="40.0" prefWidth="300.0" styleClass="sidenavbuttons" stylesheets="@../../Styles.css" text="Students Marks">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="2.0" />
+               </VBox.margin>
+            </Button>
+         </children></VBox>
+   </left>
+   <top>
+      <VBox alignment="CENTER" prefHeight="70.0" prefWidth="1000.0" style="-fx-background-color: #3e3f45;;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="TOP_LEFT" text="Assignment Management System" textFill="#ffe200">
+               <font>
+                  <Font name="Britannic Bold" size="30.0" />
+               </font></Label>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <AnchorPane prefHeight="530.0" prefWidth="700.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="reqResponse">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/reqResponse.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

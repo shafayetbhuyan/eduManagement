@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="530.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ui.controller.StudentAssignmentUploadController">
+    <children>
+        <Label layoutX="237.0" layoutY="20.0" text="Student Assignment" textFill="#4232bc">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Line endX="594.5" endY="-7.0" layoutX="108.0" layoutY="69.0" startX="-108.0" startY="-7.0" />
+        <Label layoutX="31.0" layoutY="83.0" text="Assignment No: ">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="assignmentNoLabel" layoutX="181.0" layoutY="83.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;">
+            <font>
+                <Font size="16.0" />
+            </font>
+            <padding>
+                <Insets left="10.0" />
+            </padding>
+        </Label>
+        <Label layoutX="31.0" layoutY="127.0" text="Assignment Title: ">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="assignmentTitleLabel" layoutX="181.0" layoutY="127.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;">
+            <font>
+                <Font size="16.0" />
+            </font>
+            <padding>
+                <Insets left="10.0" />
+            </padding>
+        </Label>
+        <Label layoutX="31.0" layoutY="170.0" text="Published Date:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="publishedDateLabel" layoutX="181.0" layoutY="170.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;">
+            <font>
+                <Font size="16.0" />
+            </font>
+            <padding>
+                <Insets left="10.0" />
+            </padding>
+        </Label>
+        <Label layoutX="31.0" layoutY="211.0" text="Submit Date">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="submitDateLabel" layoutX="181.0" layoutY="211.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;">
+            <font>
+                <Font size="16.0" />
+            </font>
+            <padding>
+                <Insets left="10.0" />
+            </padding>
+        </Label>
+        <Button layoutX="32.0" layoutY="395.0" mnemonicParsing="false" onAction="#chooseFileToUpload" prefHeight="25.0" prefWidth="126.0" styleClass="buttons" stylesheets="@../../Styles.css" text="Choose File">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Button>
+        <Button layoutX="289.0" layoutY="472.0" mnemonicParsing="false" onAction="#submitAssignmentFile" prefHeight="25.0" prefWidth="126.0" styleClass="buttons" stylesheets="@../../Styles.css" text="Submit">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+      <Button layoutX="289.0" layoutY="286.0" mnemonicParsing="false" onAction="#downloadAssignmentFile" prefHeight="25.0" prefWidth="126.0" styleClass="buttons" stylesheets="@../../Styles.css" text="Download">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="255.0" layoutY="253.0" text="Download Assignment Task">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="441.0" text="Submit Assignment ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="assignmentUploadPath" editable="false" layoutX="185.0" layoutY="395.0" prefHeight="25.0" prefWidth="475.0" promptText="Upload assignment file here.">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label fx:id="messageLabel" alignment="CENTER" layoutX="8.0" layoutY="335.0" prefHeight="25.0" prefWidth="688.0" style="-fx-background-color: #fdf7e8;" textFill="#2462bf">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+    </children>
+</AnchorPane>

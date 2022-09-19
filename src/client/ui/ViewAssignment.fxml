@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="530.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ui.controller.ViewAssignmentController">
+   <children>
+      <Label layoutX="259.0" layoutY="22.0" text="View Assignment" textFill="#155572">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Line endX="594.5" endY="-7.0" layoutX="118.0" layoutY="79.0" startX="-118.0" startY="-7.0" />
+      <Label layoutX="43.0" layoutY="164.0" text="Assignment No: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="164.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="44.0" layoutY="205.0" text="Assignment Title: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="205.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="43.0" layoutY="247.0" text="Assignment details: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="317.0" text="Submit Date:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="317.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;" text="10/10/2021">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <TextArea layoutX="196.0" layoutY="245.0" prefHeight="57.0" prefWidth="475.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="43.0" layoutY="89.0" text="Student Name:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="89.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="44.0" layoutY="126.0" text="Student ID:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="126.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="44.0" layoutY="358.0" text="Submit Status:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="358.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;" text="OnTime/Late">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="43.0" layoutY="404.0" text="Remark Student: :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="196.0" layoutY="399.0" prefHeight="30.0" prefWidth="290.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="500.0" layoutY="399.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="169.0" styleClass="buttons" stylesheets="@../../Styles.css" text="Submit Marks">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="43.0" layoutY="449.0" text="Mark: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="449.0" prefHeight="25.0" prefWidth="475.0" style="-fx-background-color: #d9d3d0;" text="10/ Not Given">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Button layoutX="272.0" layoutY="486.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="169.0" styleClass="buttons" stylesheets="@../../Styles.css" text="View Assignment">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

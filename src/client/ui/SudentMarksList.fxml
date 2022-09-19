@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="530.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.ui.controller.SudentMarksListController">
+    <children>
+        <Label layoutX="274.0" layoutY="22.0" text="Student Marks" textFill="#155572">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <TableView fx:id="tableMarks" layoutX="25.0" layoutY="90.0" prefHeight="423.0" prefWidth="666.0">
+            <columns>
+                <TableColumn fx:id="tabColStudentID" prefWidth="49.0" text="Std ID" />
+                <TableColumn fx:id="tabColStudentName" minWidth="0.0" prefWidth="184.0" text="Name" />
+                <TableColumn fx:id="tabColAssignmentID" prefWidth="116.0" text="Assignment ID" />
+                <TableColumn fx:id="tabColAssignmentName" prefWidth="219.0" text="Assignment Name" />
+            <TableColumn fx:id="tabColMarks" prefWidth="97.0" text="Marks" />
+            </columns>
+        </TableView>
+        <Line endX="594.5" endY="-7.0" layoutX="118.0" layoutY="79.0" startX="-118.0" startY="-7.0" />
+    </children>
+</AnchorPane>
