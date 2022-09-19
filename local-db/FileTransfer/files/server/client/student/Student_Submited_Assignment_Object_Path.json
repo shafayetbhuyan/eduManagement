@@ -1,0 +1,38 @@
+[
+  {
+    "studentName": "Abdullah Noyeem",
+    "studentID": "11",
+    "assignmentNo": "1638075068",
+    "assignmentName": "Java Object Oriented Programming",
+    "publishDate": "2021-11-28",
+    "submitDate": "2021-12-01",
+    "assignmentFilePath": "E:/FileTransfer/files/server/client/student/assignments/AsNo_1638075068_std_11.jpg"
+  },
+  {
+    "studentName": "Abdullah Noyeem",
+    "studentID": "11",
+    "assignmentNo": "1638075127",
+    "assignmentName": "Java Collection API",
+    "publishDate": "2021-11-28",
+    "submitDate": "2021-12-04",
+    "assignmentFilePath": "E:/FileTransfer/files/server/client/student/assignments/AsNo_1638075127_std_11.jpg"
+  },
+  {
+    "studentName": "Abdullah Noyeem",
+    "studentID": "11",
+    "assignmentNo": "1638075166",
+    "assignmentName": "Java Stream API",
+    "publishDate": "2021-11-28",
+    "submitDate": "2021-12-09",
+    "assignmentFilePath": "E:/FileTransfer/files/server/client/student/assignments/AsNo_1638075166_std_11.jpg"
+  },
+  {
+    "studentName": "Abdullah Noyeem",
+    "studentID": "11",
+    "assignmentNo": "1638075195",
+    "assignmentName": "Java Input/Output Stream",
+    "publishDate": "2021-11-28",
+    "submitDate": "2021-12-03",
+    "assignmentFilePath": "E:/FileTransfer/files/server/client/student/assignments/AsNo_1638075195_std_11.jpg"
+  }
+]

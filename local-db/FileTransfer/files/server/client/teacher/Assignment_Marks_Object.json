@@ -1,0 +1,16 @@
+[
+  {
+    "studentID": "11",
+    "studentName": "Abdullah Noyeem",
+    "assignmentID": "1638075068",
+    "assignmentName": "Java Object Oriented Programming",
+    "mark": 20
+  },
+  {
+    "studentID": "11",
+    "studentName": "Abdullah Noyeem",
+    "assignmentID": "1638075127",
+    "assignmentName": "Java Collection API",
+    "mark": 21
+  }
+]

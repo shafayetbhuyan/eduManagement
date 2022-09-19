@@ -1,0 +1,66 @@
+[
+  {
+    "assignmentId": "1638075068",
+    "assignmentName": "Java Object Oriented Programming",
+    "assignmentSubject": "Java SE",
+    "assignmentFilePath": "E:/FileTransfer/files/server/client/teacher/assignments/Assignment_1638075068.txt",
+    "publishedDate": {
+      "year": 2021,
+      "month": 11,
+      "day": 28
+    },
+    "SubmitDate": {
+      "year": 2021,
+      "month": 12,
+      "day": 1
+    }
+  },
+  {
+    "assignmentId": "1638075127",
+    "assignmentName": "Java Collection API",
+    "assignmentSubject": "Java SE",
+    "assignmentFilePath": "E:/FileTransfer/files/server/client/teacher/assignments/Assignment_1638075127.txt",
+    "publishedDate": {
+      "year": 2021,
+      "month": 11,
+      "day": 28
+    },
+    "SubmitDate": {
+      "year": 2021,
+      "month": 12,
+      "day": 4
+    }
+  },
+  {
+    "assignmentId": "1638075166",
+    "assignmentName": "Java Stream API",
+    "assignmentSubject": "Java SE",
+    "assignmentFilePath": "E:/FileTransfer/files/server/client/teacher/assignments/Assignment_1638075166.txt",
+    "publishedDate": {
+      "year": 2021,
+      "month": 11,
+      "day": 28
+    },
+    "SubmitDate": {
+      "year": 2021,
+      "month": 12,
+      "day": 9
+    }
+  },
+  {
+    "assignmentId": "1638075195",
+    "assignmentName": "Java Input/Output Stream",
+    "assignmentSubject": "Java SE",
+    "assignmentFilePath": "E:/FileTransfer/files/server/client/teacher/assignments/Assignment_1638075195.txt",
+    "publishedDate": {
+      "year": 2021,
+      "month": 11,
+      "day": 28
+    },
+    "SubmitDate": {
+      "year": 2021,
+      "month": 12,
+      "day": 3
+    }
+  }
+]
